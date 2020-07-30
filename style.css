@@ -25,12 +25,21 @@ h1 {
 	
 }
 
-.foto {
-	border-radius: 50%;
+.detail {
+	padding: 0 30px;
 }
+
+.jmeno {
+	padding: 0 30px;
+}
+
 
 .medailon {
 	border-radius: 50%;
+	margin: 20px;
+	max-width: 100%;
+	height: auto;
+	padding: 10px;
 }
 
 
@@ -44,7 +53,20 @@ h1 {
 
 	.osoba {
 		width: calc(100% / 2 - 20px);
+		display: flex;
+		text-align: left;
+		flex-shrink: 0;
 		
 	}
 	
 }
+
+
+@media (min-width: 960px) {
+
+
+	.osoba {
+		width: calc(100% / 4 - 30px);
+		display: block;
+		text-align: center;
+	}
