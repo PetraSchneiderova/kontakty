@@ -9,3 +9,15 @@ body {
 
 /* ---------------------------------------------------- */
 
+h1 {
+	text-align: center;
+}
+.osoba {
+	border: 2px solid black;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	width: 400px;
+	
+}
